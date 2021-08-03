@@ -1,0 +1,10 @@
+print('You will be prompted for 3 Test Scores below.')
+print('======================')
+score_1 = int(input('Enter test score:'))
+score_2 = int(input('Enter test score:'))
+score_3 = int(input('Enter test score:'))
+print('=======================')
+print('Your Scores:   ', score_1, score_2, score_3)
+total_score = score_1 + score_2 + score_3
+print('Total Score:   ', total_score)
+print('Average Score: ', total_score / 3)
